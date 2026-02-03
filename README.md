@@ -35,4 +35,4 @@ This project is developed primarily using **HTML, CSS, and vanilla JavaScript**,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mapty.git
+   git clone (https://eyad662.github.io/Mapty/)
