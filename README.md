@@ -1,52 +1,56 @@
-🗺️ Mapty – Workout Tracker App
+🗺️ Mapty – Workout Tracker Website
 
-A web application for tracking running and cycling workouts on an interactive map using JavaScript, OOP, and Leaflet. Users can add workouts by clicking on the map and keep their data saved using Local Storage.
+A front-end web application for tracking running and cycling workouts on an interactive map.
+This project is built using HTML, CSS, and vanilla JavaScript, with a strong focus on Object-Oriented Programming (OOP), browser APIs, and clean architecture.
 
-🚀 Features
+✨ Key Features
 
-Detects user location using the Geolocation API
+Geolocation Support: Automatically detects the user’s current location.
 
-Interactive map powered by Leaflet and OpenStreetMap
+Interactive Map: Uses Leaflet with OpenStreetMap tiles.
 
-Supports two workout types:
+Workout Tracking:
 
-Running (distance, duration, cadence, pace)
+🏃‍♂️ Running (distance, duration, cadence, pace)
 
-Cycling (distance, duration, elevation, speed)
+🚴‍♀️ Cycling (distance, duration, elevation gain, speed)
 
-Displays workouts as:
+Dynamic Form Fields: Cadence and elevation inputs toggle based on workout type.
 
-Map markers
+Workout Visualization:
 
-List items
+Markers displayed on the map
 
-Saves workouts in Local Storage
+Detailed workout cards shown in a list
 
-Restores data after page reload
+Local Storage Integration: Saves workouts and restores them after page refresh.
 
-Click a workout to move the map to its location
+Map Navigation: Clicking a workout moves the map to its location.
 
-🛠️ Technologies
-
-HTML5
-
-CSS3
-
-JavaScript (ES6+)
-
-Object-Oriented Programming (Classes & Inheritance)
-
-Leaflet.js
-
+🛠️ Tech Stack
+Technology	Purpose
+HTML5	Structuring the application layout and semantic elements.
+CSS3	Styling the UI and layout.
+JavaScript (ES6+)	Application logic, OOP structure, and event handling.
+Leaflet.js	Rendering and controlling the interactive map.
+OpenStreetMap	Map tile provider.
+Browser APIs	Geolocation API and Local Storage.
 ▶️ How to Use
 
 Allow location access
 
-Click on the map to add a workout
+Click anywhere on the map to add a workout
 
 Fill in the form and submit
 
-📌 Notes
+📌 Project Focus
 
-This project focuses on practicing JavaScript OOP, event handling, and working with browser APIs.
-Inspired by the Mapty project.
+This project is designed to practice:
+
+JavaScript OOP (Classes, Inheritance, Encapsulation)
+
+Working with maps and geolocation
+
+State management using Local Storage
+
+Clean and scalable front-end architecture
